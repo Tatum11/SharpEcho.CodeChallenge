@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="809046b9-8f75-4ece-974f-4edc036d4cb7" ChangeDateTime="02/07/2022 12:06:55">
+    <Property Name="ElementName" Value="[dbo].[Team].[Opponet1]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Team]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="HomeTeam" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f9a3b926-15f6-4b72-8c14-713440b69e34" ChangeDateTime="02/07/2022 12:10:37">
+    <Property Name="ElementName" Value="[dbo].[Team].[HomeTeam]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Team]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="HomeTeamId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="08f9c917-dcd5-46a4-aba4-0aa30810cb98" ChangeDateTime="02/07/2022 12:10:42">
+    <Property Name="ElementName" Value="[dbo].[Team].[VisitorTeam]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Team]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="VisitorTeamId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="84841811-0071-4fae-8cfe-e99540a26594" ChangeDateTime="02/07/2022 12:10:51">
+    <Property Name="ElementName" Value="[dbo].[Team].[w]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Team]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="WinnerId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0cf5992b-d7f9-41fc-a5fd-8716373a3eea" ChangeDateTime="02/07/2022 13:26:47">
+    <Property Name="ElementName" Value="[dbo].[Match].[MatchId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Match]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Id" />
+  </Operation>
+</Operations>
